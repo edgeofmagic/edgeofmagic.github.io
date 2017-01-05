@@ -1,9 +1,3 @@
-#### David Curtis
-
-A guy who plays drums, writes code, and thinks about things.
-
----
-
 Bits of code I've written recently:
 
 [k-means]({{ site.url }}/k-means)
