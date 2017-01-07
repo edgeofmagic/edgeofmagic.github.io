@@ -1,16 +1,12 @@
 ---
-layout: home
-title: David Curtis
-description: A guy who plays drums, writes code, and thinks about things.
+layout: default
+title: Home
+cover: true
+cover_title: David Curtis
+cover_description: A guy who plays drums, writes code, and thinks about things.
+cover_image: 'assets/images/rotoset.jpg'
+cover_height: 85%
+navigation_weight: 1
+no_content: true
 ---
-Bits of code I've written recently:
-
-[k-means]({{ site.url }}/k-means)
-
-[ISAAC-engine]({{ site.url }}/ISAAC-engine)
-
-[proximal]({{ site.url }}/proximal)
-
-[async-lru-cache]({{ site.url }}/async-lru-cache)
-
 
