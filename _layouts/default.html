@@ -16,7 +16,7 @@
 
     <!-- HEADER -->
     <div class="outer"
-    {% if page.cover %} style="background-image:url({{ site.baseurl }}{{ page.cover_image }});background-repeat:no-repeat;background-size:cover;{% if page.no_content %}flex:1;{% else %}height:{{ page.cover_height }};{% endif %}min-height:150px" {% endif %} >
+    {% if page.cover %} style="background-image:url({{ site.baseurl }}{{ page.cover_image }});background-repeat:no-repeat;background-size:cover;background-position:center;{% if page.no_content %}flex:1;{% else %}height:{{ page.cover_height }};{% endif %}min-height:150px" {% endif %} >
         <header class="inner">
           {% include nav.html %}
           <h1 id="project_title">{{ page.cover_title | default: site.github.repository_name }}</h1>
