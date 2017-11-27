@@ -16,4 +16,6 @@ navigation_weight: 2
 
 [async-lru-cache]({{ site.url }}/async-lru-cache)
 
+[imgmatch]({{ site.url }}/imgmatch)
+
 
